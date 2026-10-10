@@ -1,0 +1,28 @@
+@media (max-width: 380px) {
+    .common__container {
+        padding: 0 10px;
+    }
+
+    .get-started {
+        padding: 40px 0;
+    }
+
+    .get-started__title {
+        font-size: 26px;
+        line-height: 1.15;
+    }
+
+    .get-started__text {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .btn {
+        width: 100%;
+        padding: 10px 16px;
+    }
+
+    .footer {
+        padding: 30px 0;
+    }
+}

@@ -1,0 +1,39 @@
+.get-started {
+    padding: 80px 0;
+    background-color: var(--bg-light);
+}
+
+.get-started__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.get-started__content {
+    max-width: 540px;
+}
+
+.get-started__title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.get-started__text {
+    font-size: 18px;
+    color: var(--text-muted);
+    line-height: 1.5;
+    margin-bottom: 32px;
+}
+
+.get-started__buttons {
+    display: flex;
+    gap: 16px;
+}
+
+.get-started__image {
+    max-width: 500px;
+    width: 100%;
+}

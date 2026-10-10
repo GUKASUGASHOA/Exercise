@@ -1,0 +1,40 @@
+.header {
+    padding: 20px 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo img {
+    height: 32px;
+}
+
+.header__menu {
+    display: flex;
+    gap: 32px;
+}
+
+.header__link {
+    color: var(--text-muted);
+    font-size: 15px;
+    transition: color 0.2s;
+}
+
+.header__link:hover {
+    color: var(--text-color);
+}
+
+.header__actions {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.header__signin {
+    font-size: 15px;
+    font-weight: 500;
+}

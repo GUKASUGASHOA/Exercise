@@ -1,0 +1,11 @@
+:root {
+    --primary-color: #0056B3;
+    --primary-hover: #004090;
+    --text-color: #222222;
+    --text-muted: #666666;
+    --bg-color: #FFFFFF;
+    --bg-light: #F8F9FA;
+    --border-color: #E2E8F0;
+    --font-family: 'Inter', sans-serif;
+    --container-width: 1200px;
+}

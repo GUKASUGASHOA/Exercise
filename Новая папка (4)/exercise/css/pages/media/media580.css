@@ -1,0 +1,13 @@
+@media (max-width: 580px) {
+    .get-started__title {
+        font-size: 32px;
+    }
+    
+    .get-started__text {
+        font-size: 16px;
+    }
+
+    .get-started__buttons {
+        flex-direction: column;
+    }
+}

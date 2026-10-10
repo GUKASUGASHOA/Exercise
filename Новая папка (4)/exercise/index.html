@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whirl Landing Page</title>
+    <!-- Главная точка входа стилей -->
+    <link rel="stylesheet" href="./css/global/index.css">
+    <link rel="stylesheet" href="./css/pages/index.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Шапка сайта -->
+        <header class="header">
+            <div class="common__container header__container">
+                <a href="#" class="header__logo">
+                    <!-- Встроенный SVG логотип -->
+                    <svg width="80" height="28" viewBox="0 0 80 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="14" cy="14" r="10" fill="#0056B3"/>
+                        <path d="M11 14L13 16L18 11" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <text x="30" y="20" font-family="Inter, sans-serif" font-weight="bold" font-size="18" fill="#222222">Whirl</text>
+                    </svg>
+                </a>
+                <nav class="header__nav">
+                    <ul class="header__menu">
+                        <li><a href="#" class="header__link">Features</a></li>
+                        <li><a href="#" class="header__link">Pricing</a></li>
+                        <li><a href="#" class="header__link">Resources</a></li>
+                        <li><a href="#" class="header__link">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header__actions">
+                    <a href="#" class="header__signin">Sign in</a>
+                    <a href="#" class="btn btn--primary">Get Started</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Основной контент страницы -->
+        <main class="main">
+            <!-- Блок Get Started (Первый экран / Hero-секция) -->
+            <section class="get-started">
+                <div class="common__container get-started__container">
+                    <div class="get-started__content">
+                        <h1 class="get-started__title">Your everyday tasks, automated.</h1>
+                        <p class="get-started__text">WHIRL is a no-code automation platform for scaling teams. Easily connect apps and automate workflows.</p>
+                        <div class="get-started__buttons">
+                            <a href="#" class="btn btn--primary">Book a demo</a>
+                            <a href="#" class="btn btn--outline">Explore features</a>
+                        </div>
+                    </div>
+                    <div class="get-started__image">
+                        <!-- Встроенная SVG иллюстрация для первого экрана -->
+                        <svg viewBox="0 0 500 380" fill="none" xmlns="http://www.w3.org/2000/svg" style="width: 100%; height: auto;">
+                            <rect width="500" height="380" rx="16" fill="#EBF3FE"/>
+                            <rect x="60" y="50" width="220" height="260" rx="12" fill="white" stroke="#D1E3FF" stroke-width="4"/>
+                            <rect x="85" y="80" width="120" height="16" rx="4" fill="#0056B3" opacity="0.2"/>
+                            <rect x="85" y="115" width="170" height="12" rx="4" fill="#E2E8F0"/>
+                            <rect x="85" y="140" width="140" height="12" rx="4" fill="#E2E8F0"/>
+                            <circle cx="330" cy="180" r="70" fill="#0056B3" opacity="0.1"/>
+                            <path d="M310 180L330 200L370 160" stroke="#0056B3" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Подвал сайта -->
+        <footer class="footer">
+            <div class="common__container footer__container">
+                <div class="footer__col footer__col--logo">
+                    <a href="#" class="footer__logo">
+                        <!-- Встроенный SVG логотип в футере -->
+                        <svg width="80" height="28" viewBox="0 0 80 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="14" cy="14" r="10" fill="#0056B3"/>
+                            <path d="M11 14L13 16L18 11" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <text x="30" y="20" font-family="Inter, sans-serif" font-weight="bold" font-size="18" fill="#222222">Whirl</text>
+                        </svg>
+                    </a>
+                    <p class="footer__copyright">© 2023 Whirl. All rights reserved.</p>
+                </div>
+                <div class="footer__col">
+                    <h3 class="footer__title">Product</h3>
+                    <ul class="footer__list">
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Integrations</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h3 class="footer__title">Company</h3>
+                    <ul class="footer__list">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col footer__col--subscribe">
+                    <h3 class="footer__title">Subscribe</h3>
+                    <form class="footer__form">
+                        <input type="email" placeholder="Enter your email" class="footer__input" required>
+                        <button type="submit" class="footer__submit">→</button>
+                    </form>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

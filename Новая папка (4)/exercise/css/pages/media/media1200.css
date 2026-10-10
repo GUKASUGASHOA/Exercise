@@ -1,0 +1,8 @@
+@media (max-width: 1200px) {
+    .common__container {
+        max-width: 960px;
+    }
+    .get-started__title {
+        font-size: 40px;
+    }
+}

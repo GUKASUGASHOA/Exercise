@@ -1,0 +1,43 @@
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.main {
+    flex: 1 1 auto;
+}
+
+.common__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 14px;
+    transition: background-color 0.2s ease;
+}
+
+.btn--primary {
+    background-color: var(--primary-color);
+    color: #FFFFFF;
+}
+
+.btn--primary:hover {
+    background-color: var(--primary-hover);
+}
+
+.btn--outline {
+    background-color: transparent;
+    border: 1px solid var(--border-color);
+    color: var(--text-color);
+}
